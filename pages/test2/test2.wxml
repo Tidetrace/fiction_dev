@@ -1,0 +1,7 @@
+<!--pages/test2/test2.wxml-->
+<view>
+<text>姓名为：{{name}}</text>
+</view>
+<view>
+<text>年龄为：{{age}}</text>
+</view>

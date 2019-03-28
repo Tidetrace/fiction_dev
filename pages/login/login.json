@@ -1,0 +1,7 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarBackgroundColor": "#BC8F8F",
+  "navigationBarTitleText": "用户登录",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true
+}

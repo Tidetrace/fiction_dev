@@ -1,0 +1,16 @@
+<!--pages/movie/movie.wxml-->
+<view class='imagesize'>
+  <image src='../image/yy.jpeg' class='in-image' mode='widthFix'></image>
+</view>
+<view>
+  <form bindsubmit='formLoginInfo'>
+    <view>
+      <input type='text' placeholder='请输入用户名' name='username' class='input_txt' value='{{username}}'></input>
+      <input type='password' placeholder='请输入密码' name='password' class='input_txt' value='{{password}}'></input>
+    </view>
+    <view>
+      <button form-type='submit' class='button'>登录</button>
+    </view>
+  </form>
+</view>
+<view bindtap='skipListener'class='skip'>跳过>></view> 

@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "首页-资讯",
+ "tabBar": {
+   "list": [{
+      "pagePath": "pages/person/person",
+      "text": "我的",
+      "iconPath": "utils/img/movie-not.png",
+      "selectedIconPath": "utils/img/movie-selected.png"
+   }]
+ }
+}

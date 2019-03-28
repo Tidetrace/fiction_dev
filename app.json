@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/test1/test1",
+    "pages/test2/test2",
+    "pages/person/person"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F4A460",
+    "navigationBarTitleText": "听心灵之声",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "utils/img/index-not.png",
+        "selectedIconPath": "utils/img/index-selected.png"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "text": "我的",
+        "iconPath": "utils/img/movie-not.png",
+        "selectedIconPath": "utils/img/movie-selected.png"
+      }
+    ]
+  }
+}

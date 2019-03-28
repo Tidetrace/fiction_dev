@@ -1,0 +1,65 @@
+/* pages/movie/movie.wxss */
+
+page {
+  background: #fbfbfb;
+  font-family: '微软雅黑';
+}
+
+.imagesize {
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagesize image {
+  width: 180rpx;
+  height: 180rpx;
+  border-width: 3rpx;
+  border-radius: 50rpx;
+  border-color: #a52a2a;
+  border-style: solid;
+}
+
+.input_txt {
+  border: 1px solid rgb(139, 108, 108);
+  border-radius: 20rpx;
+  line-height: 80rpx;
+  height: 80rpx;
+  width: 80%;
+  margin: 5% auto;
+  padding-left: 20rpx;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.button-hover {
+  background-color: #c7514b;
+}
+
+/** 添加自定义button点击态样式类**/
+
+.other-button-hover {
+  background-color: #b02923;
+  color: #fff;
+}
+
+button {
+  background-color: #b02923;
+  color: #fff;
+  top: 100rpx;
+  width: 50%;
+}
+
+.userError {
+  border-color: #b02923;
+}
+
+.skip{
+  color: #ccc;
+  font-size: 14px;
+  font-style: '楷体';
+  margin: 20% auto;
+  width: 100rpx;
+ 
+}

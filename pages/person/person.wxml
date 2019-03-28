@@ -1,0 +1,10 @@
+<view wx:for="{{data}}">
+  <view>{{item.name}}</view>
+  <view>{{item.age}}</view>
+  <view>{{item.address}}</view>
+  <view>{{item.phone}}</view>
+</view>
+
+<view>
+  <button bindtap='quitListener'>退出</button>
+</view>
